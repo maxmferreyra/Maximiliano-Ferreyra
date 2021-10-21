@@ -2,14 +2,10 @@ import React from "react";
 
 const TitleContainer = () => {
     return(
-        <div className="title-container">
-            <div className="div-title">
-                <h1>Maximiliano Ferreyra</h1>
-                <h4>Programación y diseño web</h4>
-            </div>
-            <div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b62d4" fill-opacity="0.7" d="M0,160L26.7,181.3C53.3,203,107,245,160,256C213.3,267,267,245,320,213.3C373.3,181,427,139,480,117.3C533.3,96,587,96,640,117.3C693.3,139,747,181,800,208C853.3,235,907,245,960,240C1013.3,235,1067,213,1120,181.3C1173.3,149,1227,107,1280,96C1333.3,85,1387,107,1413,117.3L1440,128L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
-            </div>
+        <div className="title-container">    
+                <h1><span>Hola!</span> Soy Maximiliano Ferreyra,
+                un jóven programador web. Construyo y diseño productos digitales.</h1>
+                <button>Mira mis proyectos</button>
         </div>
     )
 }

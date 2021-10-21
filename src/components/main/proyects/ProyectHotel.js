@@ -8,7 +8,7 @@ import {
 
 const ProyectHotel = () => {
     return(
-        <div className="proyect">
+        <div className="proyect proyect-hotel">
             <img  className="img-hotel" src="./images/simulador-hoteles.jpg" alt="imagen de proyecto"></img>
             <div className="proyect-info">
                 <h3>SIMULADOR DE RESERVA DE HOTELES</h3>

@@ -18,7 +18,8 @@ body {
     max-width: 400px;
     font-family: 'Rubik', sans-serif;
     margin: 0 auto;
-    border: 1px solid;
+    background-color: #002c3e;
+
 } 
 
 header {
@@ -30,7 +31,7 @@ header {
 
 nav {
     margin-top: 20px;
-    width: 300px;
+    width: 200px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -39,8 +40,8 @@ nav {
 
 nav a {
     font-size: 14px;
-    font-weight: 400;
-    color: rgb(71, 66, 66);
+    font-weight: 300;
+    color: #f7f8f3;
     transition: transform 0.8s ease-out;
 }
 
@@ -48,68 +49,68 @@ nav a:hover {
     transform: scale(0.9);
     transition: transform 0.8s ease-out;
     cursor: pointer;
-    color: #1b62d4;
 }
 
 
 .title-container {
+    background-color: #002c3e;
     height: 600px;
     padding-top: 120px;
     margin-bottom: 60px;
 }
 
-.title-container svg {
-    margin-top: 200px;
-}
-
-.div-title {
-    border-left: 8px solid #1b62d4;
-    margin: 0px 0px 30px 40px;
-}
-
 h1 {
-    color: rgb(71, 66, 66);
-    font-size: 40px;
+    color: #f7f8f3;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 20px;
     padding-left: 30px;
+    position: relative;
 }
 
-h4 {
+.title-container button {
+    height: 40px;
+    width: 210px;
+    position: absolute;
+    top: 75%;
+    margin-left: 105px;
+    background-color: #002c3e;
+    border: 2px solid #f7444e;
+    border-radius: 12px;
+    color: #ffffff;
+   
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.title-container button:hover {
+    background-color: #f7444e;
+}
+
+h1 span {
+    color: #f7444e;
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 500;
-    color: #1b62d4;
-    padding-left: 30px;
-}
-
-.title-container path {
-    margin-top: 190px;
+    margin-right: 10px;
 }
 
 .about-me {
-    border-radius: 40px;
     margin: 0 auto;
-    width: 90%;
-    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.178); 
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.185);
+    
 }
 
 .hello {
     text-align: center;
-    font-size: 32px;
-    padding: 20px;
-}
-
-.hello span {
-    color: #F9BC60;
+    font-size: 28px;
     font-weight: bold;
+    padding: 20px;
+    color: #f7444e;
 }
 
 .description {
+    color: #f7f8f3;
     font-size: 18px;
-    line-height: 28px;
-    padding: 10px 50px;
+    line-height: 32px;
+    padding: 0px 50px 40px 50px;
     text-align: center;
 }
 
@@ -118,27 +119,27 @@ h4 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 40px auto 0px auto; 
+    height: 600px;
 }
 
 .card-tool {
-    width: 350px;
-    margin: 30px 50px;
+    width: 100%;
+    height: 250px;
     text-align: center;
 }
 
 .tools {
-    margin-top: 10px;
-    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.tools h3 {
+h3 {
     font-size: 20px;
+    font-weight: lighter;
     height: 40px;
+    color: #ffffff;
 }
 
 .tools img {
@@ -153,15 +154,21 @@ h4 {
 }
 
 .proyects-container {
-    margin: 20px auto;
+    position: relative;
+    height: 1800px;
+    border: 1px solid #f7f8f3;
+    background-color: #f7f8f3;
+    padding-top: 40px;
 }
 
 h2 {
-    width: 100px;
-    margin: 0px auto;
-    font-size: 25px;
-    font-weight: bold;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
     color: #1b62d4;
+    font-size: 20px;
+
 }
 
 .proyect {
@@ -174,12 +181,10 @@ h2 {
 }
 
 .proyect img {
-    border-radius: 30px;
     width: 380px;
     height: 230px;
-    border: 1px solid #0000004f;
+    border: 1px solid #5a57574f;
 }
-
 
 .proyect-info {
     display: flex;
@@ -193,10 +198,11 @@ h2 {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
+    color: #002c3ebe;
 }
 
 .proyect p {
-    padding: 10px 0px;
+    padding: 30px 0px;
     width: 250px;
     font-size: 16px;
     font-weight: 400;
@@ -222,40 +228,38 @@ h2 {
 
 footer {
     height: 200px;
-}
-
-footer h2 {
-    width: 250px;
-}
-
-.contact {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
+footer p {
+    width: 150px;
+    color: #f7f8f3;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+footer p span {
+    color: #f7444e;
+}
+
 .container-icons {
+    width: 140px;
     height: 80px;
+    height: 150px;
     display: flex;
     justify-content: center;
-    align-items: center;  
-    margin: 40px 0px 20px 0px;
-
+    align-items: center;
+    flex-wrap: wrap;  
 }
 
 .container-icons img {
     margin: 0px 10px;
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
 }
-
-footer span {
-    font-size: 12px;
-    color: #1b62d4;
-    margin: 10px;
-}
-
 
 @media screen and (min-width: 900px) {
     body {
@@ -263,36 +267,21 @@ footer span {
     }
 
     nav a {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .title-container {
         margin-bottom: 80px;
+        height: 600px;
     }
 
-    .div-title {
-        border-left: 8px solid #1b62d4;
-        margin-left: 170px;
-    }
-    
     h1 {
-        color: rgb(71, 66, 66);
-        font-size: 55px;
+        margin: 0 auto;
+        width: 1000px;
+        font-size: 50px;
         font-weight: 700;
         margin-bottom: 20px;
         padding-left: 30px;
-    }
-    
-    h4 {
-        text-transform: uppercase;
-        font-size: 22px;
-        font-weight: 500;
-        color: #1b62d4;
-        padding-left: 30px;
-    }
-
-    .title-container svg {
-        margin-top: 80px;
     }
 
     .about-me {
@@ -303,9 +292,15 @@ footer span {
     .tools-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         margin: 40px auto 30px auto; 
+    }
+
+    .card-tool {
+        width: 300px;
+        margin: 30px 40px;
+        height: 300px;
     }
 
      h3 {
@@ -314,13 +309,21 @@ footer span {
         color: #1b62d4;
     }
 
+    .tools img {
+        height: 50px;
+    }
+
     .proyect {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         width: 900px;
-        margin: 20px auto;
+        margin: 40px auto;
+    }
+
+    .proyect-hotel {
+        flex-direction: row-reverse;
     }
     
     .proyect img {
@@ -329,6 +332,10 @@ footer span {
     
     .proyect-info {
         width: 400px;
+    }
+
+    .proyect-info h3 {
+        padding: 0px;
     }
 }
 

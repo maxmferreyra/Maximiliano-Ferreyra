@@ -1,13 +1,14 @@
 import React from "react";
-import Copyright from "./Copyright";
-import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
     return (
     <footer id="contact">
-        <div className="contact">
-            <SocialIcons />
-            <Copyright />
+        <p>Contacta <br/> <span>me</span></p>  
+        <div class="container-icons">
+            <a href="mailto:maxiferreyram@gmail.com"><img src="./images/email.png" alt="logo de email"></img></a>
+            <a href="https://www.instagram.com/maxmfe/"><img src="./images/instagram.png" alt="logo de instagram"></img></a>
+            <a href="https://github.com/maxmferreyra"><img src="./images/github.png" alt="logo de github"></img></a>
+            <a href="https://www.linkedin.com/in/maximiliano-ferreyra/"><img src="./images/linkedin.png" alt="logo de linkedin"></img></a>
         </div>
     </footer>
     )
