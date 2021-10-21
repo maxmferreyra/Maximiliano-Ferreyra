@@ -19,7 +19,6 @@ body {
     font-family: 'Rubik', sans-serif;
     margin: 0 auto;
     background-color: #002c3e;
-
 } 
 
 header {
@@ -30,11 +29,11 @@ header {
 }
 
 nav {
+    width: 100%;
     margin-top: 20px;
-    width: 200px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -43,6 +42,7 @@ nav a {
     font-weight: 300;
     color: #f7f8f3;
     transition: transform 0.8s ease-out;
+    margin: 0px 15px;
 }
 
 nav a:hover {
@@ -69,6 +69,7 @@ h1 {
 }
 
 .title-container button {
+    cursor: pointer;
     height: 40px;
     width: 210px;
     position: absolute;
@@ -77,14 +78,20 @@ h1 {
     background-color: #002c3e;
     border: 2px solid #f7444e;
     border-radius: 12px;
-    color: #ffffff;
-   
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
+    transition: transform 1s ease-out;
 }
+
+.title-container button a {
+    color: #ffffff;
+}
+
 
 .title-container button:hover {
     background-color: #f7444e;
+    transform: scale(0.9);
+    transition: transform 1s ease-out;
 }
 
 h1 span {
@@ -95,7 +102,6 @@ h1 span {
 
 .about-me {
     margin: 0 auto;
-    
 }
 
 .hello {
@@ -136,10 +142,11 @@ h1 span {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: lighter;
     height: 40px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .tools img {
@@ -183,7 +190,6 @@ h2 {
 .proyect img {
     width: 380px;
     height: 230px;
-    border: 1px solid #5a57574f;
 }
 
 .proyect-info {
@@ -223,7 +229,7 @@ h2 {
 }
 
 .div-icon-proyect path:hover  {
-    color:#1b62d4;
+    color:#bd4e54;
 }
 
 footer {
@@ -257,8 +263,8 @@ footer p span {
 
 .container-icons img {
     margin: 0px 10px;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
 @media screen and (min-width: 900px) {
@@ -266,13 +272,17 @@ footer p span {
         max-width: 1200px;
     }
 
+    nav {
+        justify-content: flex-end;
+    };
+
     nav a {
         font-size: 18px;
     }
 
     .title-container {
         margin-bottom: 80px;
-        height: 600px;
+        height: 550px;
     }
 
     h1 {
@@ -285,7 +295,7 @@ footer p span {
     }
 
     .about-me {
-        width: 60%;
+        width: 70%;
         padding-bottom: 30px;
     }
 
@@ -294,7 +304,8 @@ footer p span {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 40px auto 30px auto; 
+        margin: 20px auto 30px auto; 
+        height: 400px;
     }
 
     .card-tool {
@@ -304,13 +315,22 @@ footer p span {
     }
 
      h3 {
-        font-size: 20px;
+        font-size: 16px;
         height: 40px;
-        color: #1b62d4;
+        border-bottom: none;
     }
 
     .tools img {
         height: 50px;
+    }
+
+    .proyects-container {
+        height: 1100px;
+    }
+
+    .proyects-container h2 {
+        margin-bottom: 20px;
+        width: 150px;
     }
 
     .proyect {
@@ -319,7 +339,7 @@ footer p span {
         justify-content: space-evenly;
         align-items: center;
         width: 900px;
-        margin: 40px auto;
+        margin: 60px auto 40px auto;
     }
 
     .proyect-hotel {
@@ -335,7 +355,28 @@ footer p span {
     }
 
     .proyect-info h3 {
+        
         padding: 0px;
+    }
+
+    footer {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    footer p {
+        height: 150px;
+        margin: 0 auto;
+        width: 240px;
+        font-size: 50px;
+    }
+
+    .container-icons {
+        width: 400px;
+    }
+
+    .container-icons img {
+        margin: 0px 15px;
     }
 }
 

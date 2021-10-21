@@ -5,7 +5,7 @@ const TitleContainer = () => {
         <div className="title-container">    
                 <h1><span>Hola!</span> Soy Maximiliano Ferreyra,
                 un jóven programador web. Construyo y diseño productos digitales.</h1>
-                <button>Mira mis proyectos</button>
+                <button> <a href="#proyects">Mira mis proyectos</a></button>
         </div>
     )
 }
