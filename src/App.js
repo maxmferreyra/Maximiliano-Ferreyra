@@ -7,11 +7,11 @@ import './index.css';
 
 function App() {
   return (
-    <body>
+    <div className="body-container">
       <Header />
       <Main />
       <Footer />
-    </body>
+    </div>
   )
 }
 
