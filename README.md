@@ -2,7 +2,7 @@
 ***
 Proyecto de página web estática. Pagina profesional
 
-![Imagen del proyecto](./images/maximiliano-ferreyra-webPage.jpg?raw=true)
+![Imagen del proyecto](./images/maximiliano-ferreyra-webPage.jpg)
 
 ## *Construído con*
 -----------------
