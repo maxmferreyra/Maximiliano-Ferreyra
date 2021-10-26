@@ -8,7 +8,7 @@ import {
 
 const ProyectGiphos = () => {
     return(
-        <div className="proyect">
+        <div className="proyect proyect-giphos">
             <img src="./images/giphos.jpg" alt="imagen de proyecto" className="giphos"></img>
             <div className="proyect-info">
                 <h3>GIPHOS</h3>
