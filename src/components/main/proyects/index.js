@@ -5,8 +5,7 @@ import ProyectPodcast from "./ProyectPodcast";
 
 const Proyects = () => {
     return (
-        <section className="proyects-container" id="proyects">
-                <h2>PROYECTOS</h2>
+        <section className="proyects-container" id="proyects">  
             <ProyectGiphos />
             <ProyectHotel />
             <ProyectPodcast />

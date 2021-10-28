@@ -12,7 +12,7 @@ const ProyectPodcast = () => {
             <img src="./images/podcast.jpg" alt="imagen de proyecto"></img>
             <div className="proyect-info">
                 <h3>CANAL DE PODCAST</h3>
-                <p>Sitio web estático donde se incluyen animaciones y archivos multimedias. Proyecto realizado con tecnologias HTML, CSS.</p>
+                <p>Sitio web estático donde se incluyen animaciones, archivos multimedias, modelos de cajas y menú hamburguesa. Proyecto realizado con tecnologias HTML, CSS.</p>
                 <div className="div-icon-proyect">
                     <a href="https://github.com/maxmferreyra/maxiferreyra-podcastChannel"><FontAwesomeIcon icon={faCodeBranch}/></a>
                     <a href="https://podcast-channel-proyect.netlify.app/"><FontAwesomeIcon icon={faExternalLinkAlt}/></a>

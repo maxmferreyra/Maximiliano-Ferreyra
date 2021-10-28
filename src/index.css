@@ -66,7 +66,6 @@ header path {
     color: #f7444e;   
 }
 
-
 .title-container {
     background-color: #002c3e;
     height: 600px;
@@ -119,7 +118,7 @@ h1 span {
 
 .hello {
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     padding: 20px;
     color: #f7444e;
@@ -175,38 +174,33 @@ h3 {
 
 .proyects-container {
     position: relative;
-    height: 2000px;
     background-color: white;
-    padding-top: 40px;
-}
-
-h2 {
-    width: 50px;
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-    color: #002c3e;
-    font-size: 20px;
-
+    margin-top: 20px;
 }
 
 .proyect {
-    width: 360px;
-    padding-bottom: 20px;
-    -webkit-box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.178); 
-    box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.178);
-    border-radius: 30px;
+    width: 400px;
+    height: 600px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 70px auto;
+    margin: 10px 0px;
+    transition: transform 1s ease-out;
+}
+
+.proyect:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 1s ease-out;
 }
 
 .proyect img {
-    border-radius: 30px;
+    border-radius: 10px;
     width: 100%;
-    height: 230px;
+    height: 210px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.59); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.59);
 }
 
 .proyect-info {
@@ -217,15 +211,15 @@ h2 {
 }
 
 .proyect h3 {
-    padding: 30px;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     font-weight: bold;
     color: #002c3ebe;
+    padding: 20px;
 }
 
 .proyect p {
-    padding: 30px 0px;
+    padding: 40px 0px;
     width: 250px;
     font-size: 16px;
     font-weight: 400;
@@ -351,46 +345,28 @@ footer p span {
     }
 
     .proyects-container {
-        height: 1300px;
-        padding-top: 120px;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;  
     }
 
-    .proyects-container h2 {
-        font-size: 26px;
-        width: 200px;
-        text-align: center;
-    }
-
-    
     .proyect {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 900px;
-        height: 320px;
-        margin: 50px auto 20px auto;
-        padding-bottom: 0px;
+        width: 350px;
+        height: 650px;
+        margin: 10px 10px;
     }
     
-    .proyect-giphos {
-        margin-top: 70px;
-    }
-
-
     .proyect img {
-        width: 450px;
-        height: 290px;
+        width: 330px;
+        height: 220px;
     }
     
     .proyect-info {
-        width: 400px;
-        padding: 10px;
+        padding: 20px 0px;
     }
 
     .proyect-info h3 {
-        
-        padding: 0px;
+        padding: 10px;
     }
 
     footer {
