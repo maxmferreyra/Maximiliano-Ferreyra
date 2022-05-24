@@ -182,15 +182,16 @@ h3 {
 }
 
 .proyect {
-    width: 400px;
+   
+    width: 380px;
     height: 600px;
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px 0px;
     transition: transform 1s ease-out;
+    margin-left: 10px;
 }
 
 .proyect:hover {
@@ -395,29 +396,4 @@ footer p span {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PROYECTS SECTION */ 
-
-
-/* 
-
- */
 
