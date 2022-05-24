@@ -194,10 +194,6 @@ h3 {
     margin-left: 10px;
 }
 
-.proyect:hover {
-    transform: scale(1.1, 1.1);
-    transition: transform 1s ease-out;
-}
 
 .proyect img {
     border-radius: 10px;
@@ -360,6 +356,11 @@ footer p span {
         width: 350px;
         height: 650px;
         margin: 10px 10px;
+    }
+
+    .proyect:hover {
+        transform: scale(1.1, 1.1);
+        transition: transform 1s ease-out;
     }
     
     .proyect img {
